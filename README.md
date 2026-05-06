@@ -1,15 +1,6 @@
 # Do R&D Tax Credits Promote High-Quality Innovation?
 **Evidence from US Patents, Citations, and Technology Proximity around the introduction of the 1981 R&D Tax Credit**
 
-[![Python 3.10+](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-[![Platform: Colab](https://img.shields.io/badge/Platform-Google%20Colab-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/)
-[![Data: Kaggle](https://img.shields.io/badge/Data-Kaggle%20USPTO%201963--1999-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/appetukhov/patents-and-patent-citations-19631999/data)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-
----
-
-## Overview
-
 This repository contains replication code for an event-study analysis of the **1981 US federal R&D tax credit** (ERTA). Using a panel of 1.5M USPTO patents (1975–1994) and 16.5M citation edges, it estimates the credit's effect on innovation **quantity** (patent counts) and **quality** (5-year forward citations) via Two-Way Fixed Effects (TWFE) designs. A logistic regression classifier for high-impact patents is also included.
 
 📄 Full paper in `/paper/nitecka_et_al_2025.pdf`
